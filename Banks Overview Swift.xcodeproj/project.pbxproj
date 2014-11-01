@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840F82151A05101F00347058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F82141A05101F00347058 /* AppDelegate.swift */; };
+		840F82171A05101F00347058 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F82161A05101F00347058 /* MasterViewController.swift */; };
+		840F82191A05101F00347058 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F82181A05101F00347058 /* DetailViewController.swift */; };
+		840F821C1A05101F00347058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840F821A1A05101F00347058 /* Main.storyboard */; };
+		840F821E1A05102000347058 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840F821D1A05102000347058 /* Images.xcassets */; };
+		840F822A1A05102000347058 /* Banks_Overview_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F82291A05102000347058 /* Banks_Overview_SwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840F82241A05102000347058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840F82071A05101F00347058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840F820E1A05101F00347058;
+			remoteInfo = "Banks Overview Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840F820F1A05101F00347058 /* Banks Overview Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Banks Overview Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840F82131A05101F00347058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840F82141A05101F00347058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		840F82161A05101F00347058 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		840F82181A05101F00347058 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		840F821B1A05101F00347058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840F821D1A05102000347058 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		840F82231A05102000347058 /* Banks Overview SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Banks Overview SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840F82281A05102000347058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840F82291A05102000347058 /* Banks_Overview_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banks_Overview_SwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840F820C1A05101F00347058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840F82201A05102000347058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840F82061A05101F00347058 = {
+			isa = PBXGroup;
+			children = (
+				840F82111A05101F00347058 /* Banks Overview Swift */,
+				840F82261A05102000347058 /* Banks Overview SwiftTests */,
+				840F82101A05101F00347058 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840F82101A05101F00347058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840F820F1A05101F00347058 /* Banks Overview Swift.app */,
+				840F82231A05102000347058 /* Banks Overview SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840F82111A05101F00347058 /* Banks Overview Swift */ = {
+			isa = PBXGroup;
+			children = (
+				840F82141A05101F00347058 /* AppDelegate.swift */,
+				840F82161A05101F00347058 /* MasterViewController.swift */,
+				840F82181A05101F00347058 /* DetailViewController.swift */,
+				840F821A1A05101F00347058 /* Main.storyboard */,
+				840F821D1A05102000347058 /* Images.xcassets */,
+				840F82121A05101F00347058 /* Supporting Files */,
+			);
+			path = "Banks Overview Swift";
+			sourceTree = "<group>";
+		};
+		840F82121A05101F00347058 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840F82131A05101F00347058 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840F82261A05102000347058 /* Banks Overview SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				840F82291A05102000347058 /* Banks_Overview_SwiftTests.swift */,
+				840F82271A05102000347058 /* Supporting Files */,
+			);
+			path = "Banks Overview SwiftTests";
+			sourceTree = "<group>";
+		};
+		840F82271A05102000347058 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840F82281A05102000347058 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840F820E1A05101F00347058 /* Banks Overview Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840F822D1A05102000347058 /* Build configuration list for PBXNativeTarget "Banks Overview Swift" */;
+			buildPhases = (
+				840F820B1A05101F00347058 /* Sources */,
+				840F820C1A05101F00347058 /* Frameworks */,
+				840F820D1A05101F00347058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Banks Overview Swift";
+			productName = "Banks Overview Swift";
+			productReference = 840F820F1A05101F00347058 /* Banks Overview Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840F82221A05102000347058 /* Banks Overview SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840F82301A05102000347058 /* Build configuration list for PBXNativeTarget "Banks Overview SwiftTests" */;
+			buildPhases = (
+				840F821F1A05102000347058 /* Sources */,
+				840F82201A05102000347058 /* Frameworks */,
+				840F82211A05102000347058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840F82251A05102000347058 /* PBXTargetDependency */,
+			);
+			name = "Banks Overview SwiftTests";
+			productName = "Banks Overview SwiftTests";
+			productReference = 840F82231A05102000347058 /* Banks Overview SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840F82071A05101F00347058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					840F820E1A05101F00347058 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					840F82221A05102000347058 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 840F820E1A05101F00347058;
+					};
+				};
+			};
+			buildConfigurationList = 840F820A1A05101F00347058 /* Build configuration list for PBXProject "Banks Overview Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840F82061A05101F00347058;
+			productRefGroup = 840F82101A05101F00347058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840F820E1A05101F00347058 /* Banks Overview Swift */,
+				840F82221A05102000347058 /* Banks Overview SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840F820D1A05101F00347058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840F821C1A05101F00347058 /* Main.storyboard in Resources */,
+				840F821E1A05102000347058 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840F82211A05102000347058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840F820B1A05101F00347058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840F82191A05101F00347058 /* DetailViewController.swift in Sources */,
+				840F82171A05101F00347058 /* MasterViewController.swift in Sources */,
+				840F82151A05101F00347058 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840F821F1A05102000347058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840F822A1A05102000347058 /* Banks_Overview_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840F82251A05102000347058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840F820E1A05101F00347058 /* Banks Overview Swift */;
+			targetProxy = 840F82241A05102000347058 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840F821A1A05101F00347058 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840F821B1A05101F00347058 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840F822B1A05102000347058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		840F822C1A05102000347058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840F822E1A05102000347058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Banks Overview Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		840F822F1A05102000347058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Banks Overview Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		840F82311A05102000347058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Banks Overview Swift.app/Banks Overview Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Banks Overview SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		840F82321A05102000347058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Banks Overview Swift.app/Banks Overview Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Banks Overview SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840F820A1A05101F00347058 /* Build configuration list for PBXProject "Banks Overview Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840F822B1A05102000347058 /* Debug */,
+				840F822C1A05102000347058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840F822D1A05102000347058 /* Build configuration list for PBXNativeTarget "Banks Overview Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840F822E1A05102000347058 /* Debug */,
+				840F822F1A05102000347058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		840F82301A05102000347058 /* Build configuration list for PBXNativeTarget "Banks Overview SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840F82311A05102000347058 /* Debug */,
+				840F82321A05102000347058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840F82071A05101F00347058 /* Project object */;
+}
